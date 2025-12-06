@@ -1,0 +1,15 @@
+version: 0.2
+phases:
+  install:
+    commands:
+      - echo "install phase - Nothing to install yet "
+    build:
+      commands:
+        - echo "Build phase - no compilation, just static files"
+        
+artifacts:
+  files:
+    - **/*
+
+
+
